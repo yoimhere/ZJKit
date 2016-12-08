@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 用来珍藏个人项目中的一些使用的工具,私人库
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ZJKit'
+  s.homepage         = 'https://github.com/yoimhere/ZJKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yuzhijie' => 'yuzhijie@wifibanlv.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ZJKit.git', :tag => s.version.to_s }
+  s.author           = { 'yoimhere' => 'yo_imhere@163.com' }
+  s.source           = { :git => 'https://github.com/yoimhere/ZJKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
