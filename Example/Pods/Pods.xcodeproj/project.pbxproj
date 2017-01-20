@@ -15,8 +15,9 @@
 		40BB1FDF81F821994B86AA09056B5C49 /* Pods-ZJKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E71845D4540628CFCC1474F142ABADCF /* Pods-ZJKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CEA92B5EC6EEE3D3C53F8A24D0B7E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		69DB6F841E3EB5C83686B6F15F3B72FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CD4B856D1E31B84F00D366E1 /* UIColor+ZJ.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4B856B1E31B84F00D366E1 /* UIColor+ZJ.h */; };
+		CD4B856E1E31B84F00D366E1 /* UIColor+ZJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B856C1E31B84F00D366E1 /* UIColor+ZJ.m */; };
 		DA532B8DCF4E75C591B414105172A087 /* Pods-ZJKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3255964FB7A78672A1D27F645EE0241F /* Pods-ZJKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F104A74F8CBFEA9DA1A6A05C972E50F0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB59B81AF85A89AB7694AF55CD228D /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		34BDC382722A7BA7FA5CB2E7E8A20473 /* Pods-ZJKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJKit_Example-resources.sh"; sourceTree = "<group>"; };
 		3ECA747B2B50166FB40E05EFB1F7A6B9 /* Pods-ZJKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		42E30950B3C0AEE13226C0D17826422D /* Pods_ZJKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EDB59B81AF85A89AB7694AF55CD228D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4EF225DBC8CBCD205D0EBFBB37DCC4C1 /* ZJKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJKit-dummy.m"; sourceTree = "<group>"; };
 		617C0E20EA04D9F3658946321C71045D /* Pods-ZJKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6FC1AFA1AAFCC305164B6D3D31129768 /* Pods-ZJKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		BC6DC77F55904B85CD267A881ECDDBB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD4135D3BC33486C39E05D9788FAE3EF /* ZJKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJKit-umbrella.h"; sourceTree = "<group>"; };
+		CD4B856B1E31B84F00D366E1 /* UIColor+ZJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZJ.h"; sourceTree = "<group>"; };
+		CD4B856C1E31B84F00D366E1 /* UIColor+ZJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZJ.m"; sourceTree = "<group>"; };
 		D19E0BD8FC5782DFDF6BD4BFB7485F28 /* ZJKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJKit.xcconfig; sourceTree = "<group>"; };
 		DE4076A8F172A596672195CA0A0C5568 /* Pods-ZJKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJKit_Example.modulemap"; sourceTree = "<group>"; };
 		E18BDA0B09DD7FC4BBC2E5F59587B76E /* Pods-ZJKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,9 +177,34 @@
 		BE72C6C6A95BA14BB28E89D7A6305F82 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4EDB59B81AF85A89AB7694AF55CD228D /* ReplaceMe.m */,
+				CD4B85681E31B82E00D366E1 /* Category */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD4B85681E31B82E00D366E1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B856A1E31B82E00D366E1 /* UI */,
+				CD4B85691E31B82E00D366E1 /* NS */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CD4B85691E31B82E00D366E1 /* NS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NS;
+			sourceTree = "<group>";
+		};
+		CD4B856A1E31B82E00D366E1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B856B1E31B84F00D366E1 /* UIColor+ZJ.h */,
+				CD4B856C1E31B84F00D366E1 /* UIColor+ZJ.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		EE52B7BC2076C86BC5D6A27319D477EB /* Pods-ZJKit_Example */ = {
@@ -229,6 +256,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4B856D1E31B84F00D366E1 /* UIColor+ZJ.h in Headers */,
 				2754D9E85D7B21BC18DA51A842465BFA /* ZJKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +373,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F104A74F8CBFEA9DA1A6A05C972E50F0 /* ReplaceMe.m in Sources */,
 				26D44FFCF42E6A7C6BC1B6CB24735908 /* ZJKit-dummy.m in Sources */,
+				CD4B856E1E31B84F00D366E1 /* UIColor+ZJ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
