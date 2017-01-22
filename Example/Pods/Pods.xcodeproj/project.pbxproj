@@ -17,6 +17,8 @@
 		69DB6F841E3EB5C83686B6F15F3B72FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		CD4B856D1E31B84F00D366E1 /* UIColor+ZJ.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4B856B1E31B84F00D366E1 /* UIColor+ZJ.h */; };
 		CD4B856E1E31B84F00D366E1 /* UIColor+ZJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B856C1E31B84F00D366E1 /* UIColor+ZJ.m */; };
+		CD516C041E348F4100613EAF /* UIImage+ZJ.h in Headers */ = {isa = PBXBuildFile; fileRef = CD516C021E348F4100613EAF /* UIImage+ZJ.h */; };
+		CD516C051E348F4100613EAF /* UIImage+ZJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD516C031E348F4100613EAF /* UIImage+ZJ.m */; };
 		DA532B8DCF4E75C591B414105172A087 /* Pods-ZJKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3255964FB7A78672A1D27F645EE0241F /* Pods-ZJKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		CD4135D3BC33486C39E05D9788FAE3EF /* ZJKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJKit-umbrella.h"; sourceTree = "<group>"; };
 		CD4B856B1E31B84F00D366E1 /* UIColor+ZJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZJ.h"; sourceTree = "<group>"; };
 		CD4B856C1E31B84F00D366E1 /* UIColor+ZJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZJ.m"; sourceTree = "<group>"; };
+		CD516C021E348F4100613EAF /* UIImage+ZJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZJ.h"; sourceTree = "<group>"; };
+		CD516C031E348F4100613EAF /* UIImage+ZJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZJ.m"; sourceTree = "<group>"; };
 		D19E0BD8FC5782DFDF6BD4BFB7485F28 /* ZJKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJKit.xcconfig; sourceTree = "<group>"; };
 		DE4076A8F172A596672195CA0A0C5568 /* Pods-ZJKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJKit_Example.modulemap"; sourceTree = "<group>"; };
 		E18BDA0B09DD7FC4BBC2E5F59587B76E /* Pods-ZJKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +207,8 @@
 			children = (
 				CD4B856B1E31B84F00D366E1 /* UIColor+ZJ.h */,
 				CD4B856C1E31B84F00D366E1 /* UIColor+ZJ.m */,
+				CD516C021E348F4100613EAF /* UIImage+ZJ.h */,
+				CD516C031E348F4100613EAF /* UIImage+ZJ.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4B856D1E31B84F00D366E1 /* UIColor+ZJ.h in Headers */,
+				CD516C041E348F4100613EAF /* UIImage+ZJ.h in Headers */,
 				2754D9E85D7B21BC18DA51A842465BFA /* ZJKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +382,7 @@
 			files = (
 				26D44FFCF42E6A7C6BC1B6CB24735908 /* ZJKit-dummy.m in Sources */,
 				CD4B856E1E31B84F00D366E1 /* UIColor+ZJ.m in Sources */,
+				CD516C051E348F4100613EAF /* UIImage+ZJ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

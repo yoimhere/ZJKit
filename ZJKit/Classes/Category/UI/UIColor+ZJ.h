@@ -13,6 +13,11 @@
 
 @interface UIColor (ZJ)
 
+/**
+ 随机获取颜色，方便调试
+
+ @return 随机颜色
+ */
 + (instancetype)zj_randomColor;
 
 @end
