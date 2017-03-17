@@ -8,35 +8,27 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZJKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1.2'
+  s.summary          = 'convenience'
 
   s.description      = <<-DESC
-TODO: 用来珍藏个人项目中的一些使用的工具,私人库
+TODO: Just use conveniently
                        DESC
 
   s.homepage         = 'https://github.com/yoimhere/ZJKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yoimhere' => 'yo_imhere@163.com' }
+  s.author           = { 'yoimhere' => 'yoimhere@163.com' }
   s.source           = { :git => 'https://github.com/yoimhere/ZJKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
+  s.requires_arc = true
 
-  s.source_files = 'ZJKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZJKit' => ['ZJKit/Assets/*.png']
-  # }
+  #s.source_files = 'ZJKit/Classes/**/*'
+  #s.frameworks = 'UIKit'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.subspec 'Category' do |category|
+      category.source_files = 'ZJKit/Classes/Category/**/*'
+  end
+  s.frameworks = 'UIKit'
 end

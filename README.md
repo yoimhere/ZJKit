@@ -22,7 +22,7 @@ pod "ZJKit"
 
 ## Author
 
-yoimher, yo_imhere@163.com
+yuzhijie, yuzhijie@wifibanlv.com
 
 ## License
 
